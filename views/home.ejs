@@ -1,0 +1,9 @@
+<h2>Iam <%= name %></h2>
+<h3>My Course List</h3>
+<ul>
+    <% courses.forEach((c)=>{
+        %>
+        <li><p>Course_id: <%= c.id %><br>Course_name: <%= c.course_name %></p></li>
+        <%
+    })%>
+</ul>
